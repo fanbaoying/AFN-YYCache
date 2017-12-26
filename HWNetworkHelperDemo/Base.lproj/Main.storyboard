@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="网络数据" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OHi-xd-ksy">
+                                <rect key="frame" x="100" y="20" width="175" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="n1U-iz-wzG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="数据缓存" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gVq-SB-LjV">
+                                <rect key="frame" x="100" y="301" width="175" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="BYh-Ek-Eai"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="62q-cl-NGg">
+                                <rect key="frame" x="20" y="61" width="335" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="2b0-G7-lbF"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NgL-QP-REW">
+                                <rect key="frame" x="20" y="342" width="335" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="aB4-mb-guj"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="缓存已关闭" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3BQ-Hh-6Nd">
+                                <rect key="frame" x="20" y="572" width="90" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="Gm2-q9-I6u"/>
+                                    <constraint firstAttribute="height" constant="21" id="rgr-dF-Pg1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5VH-ec-v7H">
+                                <rect key="frame" x="36" y="601" width="49" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="47" id="OyO-LD-xxR"/>
+                                    <constraint firstAttribute="height" constant="31" id="iIS-jW-BGG"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="isCache:" destination="BYZ-38-t0r" eventType="valueChanged" id="9h8-fw-JnP"/>
+                                </connections>
+                            </switch>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="1xv-mN-ocg">
+                                <rect key="frame" x="205" y="581.5" width="150" height="2"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="Tzr-9R-1a1"/>
+                                    <constraint firstAttribute="width" constant="150" id="wwu-LX-7rD"/>
+                                </constraints>
+                            </progressView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v8A-ru-SEN">
+                                <rect key="frame" x="205" y="598.5" width="150" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="LFl-Cz-RQk"/>
+                                    <constraint firstAttribute="height" constant="30" id="uZN-Rg-3pN"/>
+                                </constraints>
+                                <state key="normal" title="开始下载"/>
+                                <connections>
+                                    <action selector="download:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ow2-Fl-MrV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gVq-SB-LjV" secondAttribute="trailing" constant="100" id="05n-08-ZFN"/>
+                            <constraint firstItem="OHi-xd-ksy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="0Lc-5K-oR0"/>
+                            <constraint firstItem="gVq-SB-LjV" firstAttribute="top" secondItem="62q-cl-NGg" secondAttribute="bottom" constant="40" id="46R-aw-HOu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OHi-xd-ksy" secondAttribute="trailing" constant="100" id="6Uq-B2-Ypq"/>
+                            <constraint firstItem="1xv-mN-ocg" firstAttribute="centerY" secondItem="3BQ-Hh-6Nd" secondAttribute="centerY" id="7RV-a3-mR3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="v8A-ru-SEN" secondAttribute="trailing" constant="20" id="Jbl-rG-051"/>
+                            <constraint firstItem="3BQ-Hh-6Nd" firstAttribute="top" secondItem="NgL-QP-REW" secondAttribute="bottom" constant="30" id="JsQ-z5-IS6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="62q-cl-NGg" secondAttribute="trailing" constant="20" id="NcS-VS-LtV"/>
+                            <constraint firstItem="v8A-ru-SEN" firstAttribute="top" secondItem="1xv-mN-ocg" secondAttribute="bottom" constant="15" id="QWa-7s-ZDS"/>
+                            <constraint firstItem="OHi-xd-ksy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="RU6-mM-Vge"/>
+                            <constraint firstAttribute="trailing" secondItem="1xv-mN-ocg" secondAttribute="trailing" constant="20" id="Tkd-wD-G7b"/>
+                            <constraint firstItem="gVq-SB-LjV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="ToH-Jm-pRx"/>
+                            <constraint firstItem="3BQ-Hh-6Nd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="bzP-Xh-IJP"/>
+                            <constraint firstItem="5VH-ec-v7H" firstAttribute="top" secondItem="3BQ-Hh-6Nd" secondAttribute="bottom" constant="8" id="dYa-vY-tge"/>
+                            <constraint firstItem="NgL-QP-REW" firstAttribute="top" secondItem="gVq-SB-LjV" secondAttribute="bottom" constant="20" id="deL-Bm-j1J"/>
+                            <constraint firstItem="5VH-ec-v7H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="eTt-hZ-igN"/>
+                            <constraint firstItem="NgL-QP-REW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="iIW-kU-OlE"/>
+                            <constraint firstItem="62q-cl-NGg" firstAttribute="top" secondItem="OHi-xd-ksy" secondAttribute="bottom" constant="20" id="nvl-FJ-ZeB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NgL-QP-REW" secondAttribute="trailing" constant="20" id="sen-MZ-nxk"/>
+                            <constraint firstItem="62q-cl-NGg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="xLe-gP-XNm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="cacheData" destination="NgL-QP-REW" id="8fZ-Zv-8UI"/>
+                        <outlet property="cacheStatus" destination="3BQ-Hh-6Nd" id="zSu-tx-HFO"/>
+                        <outlet property="cacheSwitch" destination="5VH-ec-v7H" id="SIE-J9-osm"/>
+                        <outlet property="downloadBtn" destination="v8A-ru-SEN" id="Ufo-GB-L0s"/>
+                        <outlet property="networkData" destination="62q-cl-NGg" id="rLy-fc-9fv"/>
+                        <outlet property="progress" destination="1xv-mN-ocg" id="kGU-N4-vIT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="98.50074962518741"/>
+        </scene>
+    </scenes>
+</document>
